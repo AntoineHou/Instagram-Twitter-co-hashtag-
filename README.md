@@ -1,4 +1,4 @@
-# # PhD-Interview-Proof-of-concept
+# PhD-Interview-Proof-of-concept
 
 
 This script collects recent Tweets and Instagram for a defined individual and return a bipartite network with, on one side, two nodes representing the individual on each platform and on the other the hashtags used on his posts. 
