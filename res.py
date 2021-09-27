@@ -7,8 +7,8 @@ Created on Mon Sep 20 08:14:09 2021
 
 import pandas as pd 
 import networkx as nx
-from twitter2 import *
-from insta2 import *
+from twitter import *
+from insta import *
 
 #Instagram
 
