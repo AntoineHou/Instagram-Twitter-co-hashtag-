@@ -5,7 +5,7 @@ Created on Tue Sep 21 08:17:53 2021
 @author: antoi
 """
 
-from res2 import * 
+from res import * 
 
 if __name__ == '__main__': 
     Account_Intsagram=input("Enter instagram account :")
