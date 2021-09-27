@@ -53,7 +53,7 @@ for n in networks:
             w=G.get_edge_data(a+"_Instagram",hashtag)["weight"]+1
             G.add_edge(a+"_Instagramr",hashtag, weight = w)
 
-remove = [node for node,degree in dict(G.degree()).items() if degree == 1]
+remove = [node for node,degree in dict(G.degree()).items() if degree < 1]
 G.remove_nodes_from(remove)
 nx.write_gexf(G,"G_Merged.gexf")    
 
